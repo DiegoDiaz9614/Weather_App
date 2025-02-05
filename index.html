@@ -15,47 +15,94 @@
       <a href="#about">About</a>
     </div>
   </header>
-    <main>
-      <h2> Tooele, Utah </h2>
-      <h3> 5 Day Forecast</h3>
-      <h4> Tuesday, Junuary 4 </h4>
-      <img src="Cloudy.jpg" alt="windy weather"
-      <br> <p> Wind 23 mph</p>
-      <p> Humidity 30%</p>
-      <p> Precipitation 0%</p>
-      <h4> Wednesday, February 5</h4>
-      <img src="Cloudy.jpg" alt="cloudy weather">
-      <ul>
-       <li> Temperature 56 F</li>
-        <li> Wind 21 mph</li>
-        <li> Humidity 46%</li>
-        <li> Precipitation 20%</li>
-      </ul>
+  <div class="article-five-day">
+    <article id="forecastContainer">
+      <main>
+        <h2> Tooele, Utah </h2>
+        <h3> 5 Day Forecast</h3>
+        <h4> Tuesday, Junuary 4 </h4>
+        <figure>
+          <img src="Cloudy.jpg" 
+          alt="windy weather">
+          <figcaption> Cloudy weather for Tuesday February 4th.</figcaption>
+         </figure>
+        <br> <p> Wind 23 mph</p>
+        <p> Humidity 30%</p>
+       <p> Precipitation 0%</p>
+       <section class="weather section">
+        <h4> Wednesday, February 5</h4>
+        <figure>
+        <img src="Cloudy.jpg" alt="cloudy weather">
+        <figcaption> Cloudy weather on Wednesday February 5th.</figcaption>
+        </figure>
+        <ul>
+         <li> Temperature 56 F</li>
+         <li> Wind 21 mph</li>
+         <li> Humidity 46%</li>
+         <li> Precipitation 20%</li>
+        </ul>
       <h4> Thursday, February 6 </h4>
+      <figure>
       <img src="partially cloudy.jpg" alt="partially cloudy weather">
+      <figcaption> Partially cloudy weather for February 6th.</figcaption>
+      </figure>
       <ul>
         <li> Temperature 46 F</li>
          <li> Wind 6 mph</li>
          <li> Humidity 56%</li>
          <li> Precipitation 10%</li>
        </ul>
-       <ul>
         <h4> Friday, February 7</h4>
+        <figure>
         <img src="rain and snow.jpg" alt="rain and snow">
+        <figcaption> Rain and snowy weather for  Friday February 7th.</figcaption>
+        </figure>
+        <ul>
         <li> Temperature 51 F</li>
          <li> Wind 18 mph</li>
          <li> Humidity57%</li>
          <li> Precipitation 80%</li>
        </ul>
        <h4> Saturday, February 8</h4>
+       <figure>
        <img src="partially cloudy.jpg" alt="partially cloudy weather">
+       <figcaption> Partially cloudy weather for Saturday February 8th.</figcaption>
+       </figure>
        <ul>
         <li> Temperature 32 F</li>
          <li> Wind 9 mph</li>
          <li> Humidity 54%</li>
          <li> Precipitation 10%</li>
-       </ul>
-    </main>
+        </ul>
+       </section>
+       </main>
+    </article>
+  </div>
+    <section class="news-section">
+      <div class="page">
+        <h1>LATEST NEWS</h1>
+        <div class="archive">
+          <article class="article">
+            <img id="header-img" alt="main article" />
+            <h2>
+              <a id="header-article"></a>
+            </h2>
+            <p id="header-desc">No Article Description.</p>
+          </article>
+          <article class="article">
+            <img
+              id="article-img-1"
+              src="http://placekitten.com/g/200/200"
+              alt="main article"
+            />
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article>
+        </div>
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>
