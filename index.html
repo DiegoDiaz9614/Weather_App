@@ -4,133 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header> 
-      <h1> Utah Weather Forecast</h1>   
-      <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#weather">Weather</a>
-      <a href="#about">About</a>
-    </div>
-  </header>
-  <div class="article-five-day">
-    <article id="forecastContainer">
-      <main>
-        <h2> Tooele, Utah </h2>
-        <h3> 5 Day Forecast</h3>
-        <h4> Tuesday, Junuary 4 </h4>
-        <figure>
-          <img src="Cloudy.jpg" 
-          alt="windy weather">
-          <figcaption> Cloudy weather for Tuesday February 4th.</figcaption>
-         </figure>
-        <br> <p> Wind 23 mph</p>
-        <p> Humidity 30%</p>
-       <p> Precipitation 0%</p>
-       <section class="weather section">
-        <h4> Wednesday, February 5</h4>
-        <figure>
-        <img src="Cloudy.jpg" alt="cloudy weather">
-        <figcaption> Cloudy weather on Wednesday February 5th.</figcaption>
-        </figure>
-        <ul>
-         <li> Temperature 56 F</li>
-         <li> Wind 21 mph</li>
-         <li> Humidity 46%</li>
-         <li> Precipitation 20%</li>
-        </ul>
-      <h4> Thursday, February 6 </h4>
-      <figure>
-      <img src="partially cloudy.jpg" alt="partially cloudy weather">
-      <figcaption> Partially cloudy weather for February 6th.</figcaption>
-      </figure>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html">Weather</a>
+      <a href="news.html">News</a>
+      <a href="news.html">About</a>
+    </nav>
+    <h1> Weather Summary</h1>
+    <div class="todays-weather">
+      <h2> Todays Weather</h2>
       <ul>
-        <li> Temperature 46 F</li>
-         <li> Wind 6 mph</li>
-         <li> Humidity 56%</li>
-         <li> Precipitation 10%</li>
+        <li> Currently: Clear Sky</li>
+        <li> Temperature: 56 F</li>
+        <li> Wind Speed: 21 mph</li>
+        <li> Humidity: 46%</li>
+        <li> Precipitation: 20%</li>
        </ul>
-        <h4> Friday, February 7</h4>
-        <figure>
-        <img src="rain and snow.jpg" alt="rain and snow">
-        <figcaption> Rain and snowy weather for  Friday February 7th.</figcaption>
-        </figure>
-        <ul>
-        <li> Temperature 51 F</li>
-         <li> Wind 18 mph</li>
-         <li> Humidity57%</li>
-         <li> Precipitation 80%</li>
-       </ul>
-       <h4> Saturday, February 8</h4>
-       <figure>
-       <img src="partially cloudy.jpg" alt="partially cloudy weather">
-       <figcaption> Partially cloudy weather for Saturday February 8th.</figcaption>
-       </figure>
-       <ul>
-        <li> Temperature 32 F</li>
-         <li> Wind 9 mph</li>
-         <li> Humidity 54%</li>
-         <li> Precipitation 10%</li>
-        </ul>
-       </section>
-       </main>
-    </article>
-  </div>
-<section class="news-section">
-    <div class="page">
-      <h1>LATEST NEWS</h1>
-      <div class="archive">
-        <article class="article">
-          <h2> Stansbury man and dog rescued from icy waters</h2>
-          <img src="lake-rescue-2.webp" alt="Man and dog fall in icy lake" />
-          <h2>
-            <a id="header-article"></a>
-          </h2>
-          <p id="header-desc">Saturday night a man and his dog had to be rescued from an icy lake after falling through. Remdinding us all to stay safe in unsafe weather conditions.<a href="https://www.foxweather.com/lifestyle/man-ice-save-dog-rescue-utah-firefighters"> Learn more</a></p>
-        </article>
-        <br>
-        <article class="article">
-          <img
-            id="article-img-1"
-            src="staying safe.jpeg"
-            alt="staying safe in freezing weather"
-          />
-          <h3>
-            <a href="https://thedaily.case.edu/tips-to-stay-warm-and-safe-during-the-extreme-cold-next-week/"> Staying safe this upcoming winter</a>
-          </h3>
-          <p id="article-desc-1"> Staying safe during these upcoming cold times is far more important than one might think. Remember to bring warm clothes and take precautionary measures whenever heading outside in the winter.</p>
-       </article>
-        <article class="article">
-          <h2> Other News</h2>
-          <img
-            id="article-img-2"
-            src="mudslides.jpg"
-            alt="mudslides and rain"
-          />
-          <h3>
-            <a href="https://www.foxla.com/news/la-weather-updates-wednesday-feb-5">Los Angelees faces mudslides and flooding.</a>
-          </h3>
-          <p id="article-desc-1"> Los angeles residents facing storms back to back after raging wildfires finally contained. Local authorities advice to stay on the lookout for flooding and mudslides.</p>
-        </article>
-        <article class="article">
-          <br>
-          <img
-            id="article-img-1"
-            src="icy roads.jpg"
-            alt=" ice storms hit new jersey"
-          />
-          <h3>
-            <a href="https://www.nj.com/weather/2025/02/nj-weather-treacherous-ice-storm-to-hit-state-today-alerts-expanded-to-all-21-counties.html"> Ice storms hit N.J alerting all 21 counties of dangers</a>
-          </h3>
-          <p id="article-desc-1"> New Jersery officals are alerting all residents 21 counties of coming ice storms. Warning of dangerous hazards that may be coming including icy roads that have cause many crashes already. </p>
-        </article>
-
+       <img src="img/clear-sky.jpg" alt="clear skys">
       </div>
-    </div>
-  </section>
-  <br>
+      <div class="forecast">
+        <h2> 5 Day Forecast</h2>
+        <ul class="days">
+          <li>Monday</li>
+          <li>Tuesday</li>
+          <li>Wednesday</li>
+          <li>Thurssday</li>
+          <li>Friday</li>
+        </ul>
+        <ul class="week-weather">
+          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
+          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
+          <li><img src="img/sunny.png" alt=Sunny"></li>
+          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
+          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
+        </ul>
+        <ul class="temp">
+          <li> 61°</li>
+          <li> 47°</li>
+          <li> 43°</li>
+          <li> 50°</li>
+          <li> 53°</li>
+        </ul>
+      </div>
+
   <footer>
     <p>&copy; 2025 Diego Diaz, Tooele Technical College</p>
     <p> Last updated February 5 2025</p>

@@ -1,0 +1,127 @@
+body{
+    background-color: #F0F8FF;
+}
+h1{
+    font-size: 40px;
+    margin-left: 140px;
+}
+h2{
+    font-size: 33px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: black;
+}
+nav {
+    background-color: #A9A9A9;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 6px #87CEEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    background-color: #B0B0B0;
+    color: #333;
+    transform: scale(1.1);
+  }
+  
+  nav a.active {
+    background-color: #B0B0B0;
+    color: #333;
+    transform: scale(1.1);
+  }
+  
+  nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #87CEEB;
+    transition: width 0.3s;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  .main-news{
+    background-color:#D3D3D3;
+    width: 80%;
+    margin-left: 8.5%;
+  }
+  .main-news img{
+    width: 90%;
+    height: 500px;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  .main-news a,p{
+    display: flex;
+    justify-content: center;
+  }
+  .main-news a{
+    font-size: 20px;
+    color: black;
+  }
+  .sub-news{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .sub-news img{
+    width: 300px;
+    height: 200px;
+  }
+  .news1{
+    background-color: #D3D3D3;
+    width: 25%;
+  }
+  .news1 img{
+    margin-left: 5%;
+  }
+  .news2{
+    background-color: #D3D3D3;
+    width: 25%;
+  }
+  .news2 img{
+    margin-left: 5%;
+  }
+  .news3{
+    background-color: #D3D3D3;
+    width: 25%;
+  }
+  .news3 img{
+    margin-left: 5%;
+  }
+  .news4{
+    background-color: #D3D3D3;
+    width: 25%;
+  }
+  .news4 img{
+    margin-left: 5%;
+  }
+  footer{
+    background-color: #A9A9A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
