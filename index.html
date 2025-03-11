@@ -13,46 +13,50 @@
       <a href="news.html">News</a>
       <a href="news.html">About</a>
     </nav>
-    <h1> Weather Summary</h1>
-    <div class="todays-weather">
-      <h2> Todays Weather</h2>
-      <ul>
-        <li> Currently: Clear Sky</li>
-        <li> Temperature: 56 F</li>
-        <li> Wind Speed: 21 mph</li>
-        <li> Humidity: 46%</li>
-        <li> Precipitation: 20%</li>
-       </ul>
-       <img src="img/clear-sky.jpg" alt="clear skys">
-      </div>
-      <div class="forecast">
-        <h2> 5 Day Forecast</h2>
-        <ul class="days">
-          <li>Monday</li>
-          <li>Tuesday</li>
-          <li>Wednesday</li>
-          <li>Thurssday</li>
-          <li>Friday</li>
-        </ul>
-        <ul class="week-weather">
-          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
-          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
-          <li><img src="img/sunny.png" alt=Sunny"></li>
-          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
-          <li><img src="img/partly-cloudy.png" alt="partially cloudy"></li>
-        </ul>
-        <ul class="temp">
-          <li> 61°</li>
-          <li> 47°</li>
-          <li> 43°</li>
-          <li> 50°</li>
-          <li> 53°</li>
-        </ul>
-      </div>
 
-  <footer>
-    <p>&copy; 2025 Diego Diaz, Tooele Technical College</p>
-    <p> Last updated February 5 2025</p>
-  </footer>
+    <h1>Weather Summary</h1>
+
+    <div class="todays-weather">
+      <h2>Today's Weather</h2>
+      <ul>
+        <li>Currently: <span id="current-desc"></span></li>
+        <li>Temperature: <span id="current-temp"></span></li>
+        <li>Wind Chill: <span id="current-windChill"></span></li>
+        <li>Humidity: <span id="current-humid"></span></li>
+        <li>Wind Speed: <span id="current-windSpeed"></span></li>
+      </ul>
+      <img src="img/clear-sky.jpg" alt="clear skys">
+    </div>
+
+    <div class="forecast">
+      <h2>5 Day Forecast</h2>
+      <ul class="days">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+      </ul>
+      <ul class="week-weather">
+        <li><img src="img/partly-cloudy.png" alt="partly cloudy" /></li>
+        <li><img src="img/partly-cloudy.png" alt="partly cloudy" /></li>
+        <li><img src="img/sunny.png" alt="sunny" /></li>
+        <li><img src="img/partly-cloudy.png" alt="partly cloudy" /></li>
+        <li><img src="img/partly-cloudy.png" alt="partly cloudy" /></li>
+      </ul>
+      <ul class="temp">
+        <li>61°</li>
+        <li>47°</li>
+        <li>43°</li>
+        <li>50°</li>
+        <li>53°</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Diego Diaz, Tooele Technical College</p>
+      <p>Last updated February 5 2025</p>
+    </footer>
+    <script src="weather-header.js"></script>
   </body>
-  </html>
+</html>
